@@ -1,0 +1,507 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+
+}
+}
+
+@media (min-width: 768px){
+.col-md-4 {
+    flex: 0 0 auto;
+    margin: 0!important;
+    width: 33.33333333%;
+}
+.navbar-light .navbar-toggler{
+  z-index: 99999!important;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  body{
+    overflow-x: hidden;
+  }
+  .navbar-light .navbar-toggler{
+  z-index: 99999!important;
+}
+  .banner-row .offset-1 {
+    margin-left:0;
+    width: 50%;
+}
+.banner-text h1 {
+    font-size: 48px;
+  }
+  .banner-row .form-col{
+    width: 50%;
+    padding: 0;
+  }
+  .form{
+    padding: 45px 24px 35px 24px;
+  }
+  .form h2{
+    font-size: 24px;
+  }
+  .form p{
+    font-size: 14px;
+  }
+  .solution .col-md-3 {
+    width: 50%;
+  }
+  .solution .col-md-4 {
+    width: 50%;
+  }
+  .home-loan{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .guid .col-md-5{
+    width: 66.666667%;
+    margin-left: 0;
+  }
+  .guid-title {
+    margin-top: 72px;
+}
+.guid .guid-right{
+    width: 74.666667%;
+}
+.features .col-md-3 {
+    width: 50%;
+    margin-top: 14px;
+}
+.about .about-left{
+    width: 75.666667%;
+}
+.about .about-right1{
+  margin-left: 0;
+  width: 66.666667%;
+}
+.about .about-right{
+  margin-top: 30px;
+}
+.b-p{
+  padding: 0;
+}
+.slider .slider-bg{
+  /*margin: 0;*/
+}
+.slider-row{
+ /* width: 150%;*/
+}
+/*.footer .col-md-3 {
+    width: 50%;
+}
+.footer .col-md-1 {
+    width: 0;
+    padding: 0;
+}
+.footer .col-f-2{
+  width: 50%;
+}
+.footer .quick{
+  width: 33.666667%
+}
+.footer .f-sol{
+   width: 25.666667%;
+}*/
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+ .guid .guid-title {
+    margin-top: 120px;
+}
+.collapse ul li {
+    z-index: 9!important;
+  }
+}
+
+
+/*galaxy S5*/
+@media (min-width: 360px) and (max-width: 640px) {
+  
+  /* CSS */
+  header {
+    height: 1076px;
+    z-index: 7;
+  }
+  .navbar-toggler{
+    z-index: 10;
+  }
+  .navbar-light .navbar-toggler {
+    padding: 0;
+  }
+  .nav-item{
+    z-index: 11!important;
+  }
+  .banner-row .offset-1{
+    margin: 0;
+  }
+  .banner-innar::before {
+    height: 1076px;
+    z-index: 8;
+  }
+  .banner-text{
+    z-index: 8;
+    margin-top: 46px;
+  }
+  .banner-text h1 {
+    font-size: 38px;
+    margin-top: 16px;
+  }
+  .banner-text p {
+    font-size: 14px;
+  }
+  .banner-row .col-md-4{
+    z-index: 9;
+    padding: 0;
+  }
+  .form {
+    margin-top: 68px;
+  }
+  .solution-title {
+    margin-bottom: 54px;
+}
+  .solution-title h2 {
+    font-size: 24px;
+  }
+  .solution-title p br{
+    display: none;
+  }
+  .car-loan {
+    margin-top: 12px;
+    margin-left: 0;
+}
+.business-loan {
+    margin-left: 0;
+    margin-top: 12px;
+}
+.guid .offset-2 {
+    margin-left: 0 !important;
+}
+.about {
+    padding-top: 0px;
+    padding-bottom: 70px;
+  }
+  .about .about-right{
+    margin-top: 136px;
+  }
+  .guid-btn {
+    margin-bottom: 52px;
+  }
+  .about .offset-1 {
+    margin: 0;
+  }
+  .news {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+  .slider .offset-2 {
+    margin: 0;
+  }
+  .b-p {
+    font-size: 18px;
+     padding: 0; 
+}
+.d-name {
+    margin-top: 10px;
+}
+.d-name span {
+    font-size: 18px;
+  }
+.slide-number{
+  display: none;
+}
+.guid {
+    padding-top: 70px;
+    padding-bottom: 20px;
+  }
+.guid-title h2 {
+    margin-top: 70px;
+    font-size: 24px;
+  }
+  .guid-inner {
+    padding: 21px 19px;
+    right: 0%;
+    bottom: -13%;
+}
+.guid-inner h3 {
+    text-align: center;
+  }
+.send-innar {
+    right: 0%;
+    height: 66px;
+}
+
+.footer {
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+.footer-form input {
+    padding: 20px 18px;
+  }
+  .footer-2 h4 {
+    margin-top: 36px;
+  }
+  .fixed {
+    right: 14px;
+  }
+  .collapse ul li {
+    z-index: 9!important;
+  }
+
+
+}
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .banner-row .offset-1 {
+    margin-left: 0;
+}
+.banner-row .col-md-4{
+  padding: 0;
+}
+  .banner-text h1 {
+    font-size: 40px;
+  }
+  .banner-text p{
+    font-size: 16px;
+  }
+  .form {
+    margin-top: 46px;
+  }
+  header {
+    height: 1104px;
+  }
+.navbar-light .navbar-toggler {
+    border:none;
+}
+  .navbar-expand-lg .container-fluid{
+    padding: 0!important;
+  }
+  .navbar-expand-lg {
+    padding: 12px 0 12px 0 !important;
+}
+  .banner-innar::before {
+    height: 1104px;
+  }
+  .solution{
+    padding-top: 70px;
+  }
+  .solution-title h2{
+    font-size: 24px;
+  }
+  .solution-title p br{
+    display: none;
+  }
+  .car-loan {
+    margin-left:0;
+  }
+  .business-loan {
+    margin-left:0;
+  }
+  .guid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .guid-inner {
+    padding: 21px 19px;
+    right: 0;
+    bottom: -50px;
+}
+.guid .offset-2 {
+    margin-top: 80px;
+    margin-left: 0;
+}
+.guid-title h2 {
+    font-size: 24px;
+  }
+  .features {
+    padding-top: 70px;
+  }
+  .about {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .about .offset-1 {
+    margin-left: 0;
+}
+.about .about-right{
+  margin-top: 260px;
+}
+.slider-row .offset-2 {
+    margin-left: 0;
+}
+.b-p{
+  font-size: 19px;
+  padding: 0;
+}
+.slider-innar{
+  display: none;
+}
+.d-name span {
+    font-size: 18px;
+  }
+  .d-name p{
+    font-size: 12px;
+  }
+  .solution-title {
+    margin-bottom: 48px;
+}
+.slide-number{
+  display: none;
+}
+.news {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.footer {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.footer-2 h4 {
+    margin-top: 26px;
+  }
+  .collapse ul li {
+    z-index: 9!important;
+  }
+  
+}
+@media (max-width: 575px){
+  header {
+    height: 1100px;
+  }
+  .banner-innar::before{
+    height: 1100px;
+  }
+  .banner-row .banner-text h1 {
+    font-size: 42px;
+  }
+  .banner-row .offset-1{
+    margin: 0;
+    padding: 0;
+  }
+  .form {
+    margin-top: 42px;
+  }
+  .banner-row .form-col{
+    padding: 0;
+  }
+  .solution-title h2 {
+    font-size: 24px;
+  }
+  .home-loan{
+
+  }
+  .car-loan{
+    margin-left: 0;
+     margin-top: 16px;
+  }
+  .business-loan{
+    margin-left: 0;
+     margin-top: 16px;
+  }
+  .guid-inner {
+    padding: 19px 21px;
+    right: 0;
+    bottom: -18%;
+  }
+  .guid .guid-right{
+    margin-left: 0;
+  }
+  .guid-title {
+    margin-top: 76px;
+}
+.guid-title h2 {
+    font-size: 24px;
+  }
+  .about {
+    padding-top: 0px;
+    padding-bottom: 70px;
+  }
+  .about-right{
+    margin-top: 312px;
+  }
+  .about .about-right1{
+    margin: 0;
+  }
+  .b-p {
+    font-size: 17px;
+     padding:0; 
+}
+.d-name span {
+    font-size: 18px;
+    padding-right: 32px;
+  }
+  .slide-number{
+    display: none;
+  }
+  .d-name p {
+    font-size: 12px;
+  }
+  .news {
+    padding-top: 70px;
+    padding-bottom: 34px;
+}
+.footer {
+    padding-top: 80px;
+    padding-bottom: 32px;
+}
+.collapse ul li {
+    z-index: 9!important;
+  }
+
+
+
+
+
+}
